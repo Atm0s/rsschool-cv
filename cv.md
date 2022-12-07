@@ -36,3 +36,14 @@ function rgb(r, g, b) {
 }
 ```
 
+## Education
+- University: Russian State University of Tourism and Service (RSUTS)
+
+## Courses:
+- Rolling Scopes School
+- CS50 lectures
+- HTML Academy
+
+## Languages
+- Russian - native speaker
+- English - B2-A1
