@@ -76,7 +76,7 @@ function rgb(r, g, b) {
 	let result = [];
 	let a = 0
 	for (val in arguments) {
-		if (arguments[val] > 255) (a = 255);
+		if (arguments[val] &gt; 255) (a = 255);
 		else if (arguments[val] &lt; 0) (a = 0);
 		else (a = arguments[val])
 		if (a.toString(16).length === 1) (a = '0' + a.toString(16))
@@ -119,7 +119,7 @@ function rgb(r, g, b) {
 	<!-- Footer start -->
 	<footer class="container footer">
 		<a href="https://rs.school/js/" class="footer__link">
-			<img src="img/rss.svg" alt="Remer Rubinetterie" class="footer__logo" width=100>
+			<img src="img/rss.svg" alt="Remer Rubinetterie" class="footer__logo" width="100">
 		</a>
 		<p class="footer__copyright">
 			Copyright <time datetime="2021-12-27" class="footer__copyright">2022</time>
